@@ -1,0 +1,8 @@
+saves/
+config/
+temp/
+crop-cache.dat
+factorio-current.log
+factorio-previous.log
+player-data.json
+mods/mod-list.json
