@@ -6,3 +6,4 @@ factorio-current.log
 factorio-previous.log
 player-data.json
 mods/mod-list.json
+*.DS_Store
