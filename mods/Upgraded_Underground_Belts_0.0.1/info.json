@@ -1,9 +1,9 @@
 {
-	"name": "Tier1_Upgraded_Underground_Belts",
+	"name": "Upgraded_Underground_Belts",
 	"version": "0.0.1",
 	"title": "Upgraded Underground Belts",
 	"author": "Lunaie",
 	"contact": "",
 	"homepage": "",
-	"description": "Add's three new tiers of underground belts of each speed. Each tier is able to be placed further apart then the previous teir"
+	"description": "Add's a new Yellow, Red and Blue underground belt that can span 15 units instead of the normal 5."
 }

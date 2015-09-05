@@ -1,13 +1,13 @@
 data:extend ({
   {
     type = "transport-belt-to-ground",
-    name = "tier1-upgraded-basic-transport-belt-to-ground",
+    name = "upgraded-basic-transport-belt-to-ground",
     icon = "__base__/graphics/icons/basic-transport-belt-to-ground.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "tier1-upgraded-basic-transport-belt-to-ground"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "upgraded-basic-transport-belt-to-ground"},
     max_health = 70,
     corpse = "small-remnants",
-    max_distance = 10,
+    max_distance = 15,
     underground_sprite =
     {
       filename = "__core__/graphics/arrows/underground-lines.png",

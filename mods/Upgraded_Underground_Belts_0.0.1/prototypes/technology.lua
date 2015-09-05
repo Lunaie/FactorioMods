@@ -1,22 +1,39 @@
 data:extend({
 	{
-	    type = "technology",
-	    name = "logistics-tier1",
-	    icon = "__base__/graphics/technology/logistics.png",
-	    effects =
-	    {
-	      {
-	        type = "unlock-recipe",
-	        recipe = "tier1-upgraded-basic-transport-belt-to-ground"
-	      }
-	    },
-	    prerequisites = {"logistics"},
-	    unit =
-	    {
-	      count = 25,
-	      ingredients = {{"science-pack-1", 2}},
-	      time = 15
-	    },
-	    order = "a-f-b",
-  	}
+		type = "technology",
+		name = "logistics-2",
+		icon = "__base__/graphics/technology/logistics.png",
+		effects =
+		{
+			{
+				type = "unlock-recipe",
+				recipe = "fast-transport-belt"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "fast-transport-belt-to-ground"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "fast-splitter"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "upgraded-basic-transport-belt-to-ground"
+			}
+
+		},
+		prerequisites = {"logistics"},
+		unit =
+		{
+			count = 40,
+			ingredients =
+			{
+				{"science-pack-1", 1},
+				{"science-pack-2", 1}
+			},
+			time = 30
+		},
+		order = "a-f-b",
+	}
 })
