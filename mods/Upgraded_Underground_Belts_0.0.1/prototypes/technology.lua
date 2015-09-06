@@ -1,4 +1,3 @@
---TODO: Finish Final Technology for Upgraded express belts;
 data:extend({
 	{
 		type = "technology",
